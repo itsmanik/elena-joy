@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Elena Joy</title>
+  </head>
+
+  <body class="font-serif">
+    <!-- Navigation Bar -->
+
+    <nav class="shadow-lg flex p-4 px-12">
+      <div class="logo mr-auto">
+        <h3 class="text-2xl font-bold">Elena Joy</h3>
+      </div>
+      <div class="navLinks flex space-x-12">
+        <a href="#aboutSection" class="text-xl text-black">About</a>
+        <a href="#workSection" class="text-xl text-black">Work</a>
+        <a href="#contactSection" class="text-xl text-black">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <header id="headerSection" class="overflow-hidden">
+      <div class="headerContainer flex">
+        <div class="headerLeft w-3/5 text-center mt-32">
+          <h1 class="text-5xl font-bold">
+            Elena Joy <br />
+            Photographer
+          </h1>
+          <p class="text-xl text-gray-600 p-8 px-20">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi non
+            iste quidem enim aut, quas repellendus, in, quibusdam minus debitis
+            nesciunt hic aliquam cumque maxime et assumenda expedita commodi
+            perspiciatis.
+          </p>
+          <button
+            class="px-12 py-3 border-2 border-black text-black cursor-pointer"
+          >
+            Gallery
+          </button>
+        </div>
+        <div class="headerRight w-2/5 bg-gray-300 relative">
+          <img src="./images/elena-joy.png" class="elenaJoyImg h-full w-full z-22" />
+          <img
+            src="./images/plant1.png"
+            class="plant1 absolute h-4/5 -left-10 bottom-0 z-1"
+          />
+          <img
+            src="./images/plant2.png"
+            class="plant2 absolute h-4/5 left-40 bottom-0 z-1"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+
+    <section id="aboutSection" class="h-screen flex">
+      <div class="aboutImage w-2/5 relative">
+        <h1 class="absolute top-10 left-[35%] text-2xl tracking-widest">
+          MINIMAL
+        </h1>
+        <img
+          src="./images/about-image.png"
+          class="h-full w-full object-cover"
+        />
+      </div>
+      <div class="aboutInfo w-3/5 bg-gray-700 text-white text-xl p-16">
+        <h1 class="text-5xl font-bold text-center pb-8">Elena Joy</h1>
+        <div class="aboutLife">
+          <h3 class="text-2xl font-bold py-4">My Life</h3>
+          <p class="text-base pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dicta,
+            consequatur nam repudiandae deserunt, voluptatibus pariatur beatae
+            porro voluptatum, quos cum ducimus velit sapiente nihil facere
+            quibusdam est quod similique.
+          </p>
+        </div>
+        <div class="aboutWork">
+          <h3 class="text-2xl font-bold py-4">My Work</h3>
+          <p class="text-base pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            at nam necessitatibus nemo maiores nulla a aliquam optio quod
+            recusandae, vel nostrum labore eligendi nobis. Repellendus minus
+            fugiat aspernatur veniam?
+          </p>
+        </div>
+        <div class="aboutContact">
+          <h3 class="text-2xl font-bold py-4">Get in touch</h3>
+          <p class="text-base pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+            quia. Voluptas, sit nulla culpa itaque ex adipisci illum, architecto
+            voluptatem provident accusamus in quis. Quos illo esse mollitia sit
+            consequatur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <section id="gallerySection" class="h-screen grid grid-cols-3 grid-rows-2">
+      <img
+        src="./images/gallery-1.jpg"
+        class="gallery1 col-span-2 h-full w-full object-cover"
+      />
+      <img
+        src="./images/gallery-2.jpg"
+        class="gallery2 row-span-2 h-full w-full object-cover"
+      />
+      <img
+        src="./images/gallery-3.jpg"
+        class="gallery3 h-full w-full object-cover"
+      />
+      <img
+        src="./images/gallery-4.jpg"
+        class="gallery4 h-full w-full object-cover"
+      />
+    </section>
+  </body>
+</html>
